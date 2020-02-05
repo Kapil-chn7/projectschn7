@@ -1,0 +1,247 @@
+*{ margin: 0;
+ padding: 0; 
+}
+.background{
+    /*background-image: url('part6.jpg');*/
+    /*background-repeat: no-repeat;*/
+      height: 49vh;
+      width: 48%;
+      position: fixed;
+      top: 100px;
+      left:5px;
+      background-size: 100%;
+      /*background-color: white;*/
+      
+       /*background-image: linear-gradient(to left, #fff 80%, #efefef 20%);*/
+      
+   }
+ .upnav{border: 0px solid grey;
+ 	width: 50.5%;
+ 	background-color: white;
+ 	display:flex;
+ 	justify-content: space-around; 
+  float: right;
+  }
+  h1{ text-align: center; }
+  FOOTER{ 
+  	text-align: right;
+    color:blue;}
+
+   .footerin{position: fixed;
+      bottom: 0px;
+      right: 0px;
+      color: red;
+    }
+    .downnav{
+      position: fixed;
+      bottom: 0px;
+    left: 0px; 
+    border: 0px solid black; 
+    width: 60%;
+    background-color:white;
+    display:flex;
+    justify-content: space-around; 
+    float: right;
+    text-decoration-color: white;
+
+   }
+   .box{
+    border: 2px solid blue;
+    border-radius: 10px;
+    position: fixed;
+    top:40px;
+    right:2px;
+    height: 55vh;
+    width: 49.8%;
+
+   }
+   .articleA{
+    background-image: linear-gradient(#8d98e3, #fff);
+   }
+   .articleA h4{
+    color: red;
+    text-transform: uppercase;
+    padding-left: 3px;
+    font-size: 1.6rem;
+   } 
+   .articleA h2{ color: red;
+    text-transform: uppercase;
+    padding-left: 3px;
+    font-size: 1.6rem;
+
+   }
+   .article3{background-image: linear-gradient(#fff,#8d98e3);
+
+   }
+   .articleA p{width:98%;
+    height: 10vh;
+    border:0px solid black;
+    overflow: scroll;
+    padding-left: 10px;
+
+
+   }
+   .videos{
+    border: 0px solid black;
+    height: 20.5vh;
+    width: 50%;
+    position: fixed;
+    top:450px;
+    right: 2px;
+
+   }
+   .video2{
+     float: right;
+   }
+   .forminfo{
+    position: fixed;
+    bottom: 10px;
+    left:2px;
+    color: red;
+    font-size: 25px;
+    text-transform: uppercase;
+   }
+   .header{
+    width: 40%;
+    color:#fff;
+    background-image: linear-gradient(#8d98e3 30%,#854fee 70%);
+    padding-left: 100px;
+    box-sizing: border-box;
+    
+   }
+ .upnav a{
+  text-transform: uppercase;
+ font-size:20px;
+ }  
+.img img{
+  position:fixed;
+  top:150px;
+  left:4px;
+}
+.upnav a{
+  text-decoration: none;
+}
+.downnav a{
+  text-decoration: none;
+  font-size: 20px;
+}
+.downnav h4{
+  color: blue;
+  padding-left:130px;}
+.coins{
+  position: fixed;
+  right:100px;
+  bottom:40px;
+
+}
+.coins a{
+  text-decoration: none;
+  background-color: red;
+  animation: byforth 2s linear infinite;
+  animation-direction: alternate;
+}
+@keyframes byforth{
+  from{padding-left: 40px;
+}
+to{padding-right: 40px;}
+}
+.advcontact{
+  border:0px solid black;
+  position:fixed;
+  bottom: 122px;
+  height: 20.5vh;
+  width: 170px;
+  right:300px;
+  font-size: 21.8px;
+}
+#popup{border:1px solid black;
+  border-radius: 20px;
+  height: 300px;
+  width:40%;
+  position:absolute;
+  top:300px;
+  left: 200px;
+  display: none;
+  background-color:#efefef;
+  background-image: url('part6.jpg');
+
+}
+#popup button{position: relative;
+bottom:100px;
+left:580px;
+color: red;}
+
+#popup form{ padding:50px ;
+  text-transform: uppercase;
+padding-right: 4px;
+  color: black;
+  
+}
+#popup title{
+background-color: yellow;
+}
+#popup input{
+  height: 50px;
+  width:60%;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 10px 20px 20px 10px black;
+}
+.account{
+  border:1px solid black;
+  height:230px;
+  width:30%;
+  position: absolute;
+  left:200px;
+  bottom:400px;
+}
+.cv{
+  position: fixed;
+  bottom:300px;
+  left:5px;
+  text-decoration:none;
+  font-size: 20px;
+
+}
+.table input{
+  padding-right: 10px;
+  box-sizing:border box;
+}
+.bgimage{
+  background-image: url('part11.png');
+  width:100%;
+  height: 100vh;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.registereduser{
+  padding-left:2px ;
+  padding-top: 265px;
+
+}
+.search{
+  position: fixed;
+  top:100px;
+  left:350px;
+}
+.search1 input{
+  width:400px;
+  height:40px;
+border-radius: 10px;
+box-shadow: 10px 10px 20px 10px teal;
+padding-left: 20px;
+text-transform: uppercase;
+font-size: 15px;
+margin-left: 10px;
+}
+#submit{margin-left: 44%;
+  width: 30%;
+  box-shadow: 10px 20px 40px 10px teal;
+}
+b{
+  font-size: 20px;
+  color: white;
+}
+.b1{
+
+}
